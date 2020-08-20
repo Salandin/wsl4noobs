@@ -8,9 +8,9 @@
 
 ### Intro
 - [Sobre](./contents/Intro/wsl_first.md#Sobre)
-- [Preparação do ambiente](./contents/Intro/wsl_first.md#%20Preparação%20do%20ambiente)
-- [Intalação do WSL](./contents/Intro/wsl_first.md#Instalando%20o%20WSL)
-- [Intalação da distro linux](./contents/Intro/wsl_first.md#Instalando%20a%20distro%20Linux)
+- [Preparação do ambiente](./contents/Intro/wsl_first.md#prepara%C3%A7%C3%A3o-do-ambiente)
+- [Intalação do WSL](./contents/Intro/wsl_first.md#instalando-o-wsl)
+- [Intalação da distro linux](./contents/Intro/wsl_first.md#instalando-a-distro-linux)
 
 ### Interface Grafica
 - [Ubuntu]()
