@@ -1,7 +1,17 @@
 ![4noobs logo](https://raw.githubusercontent.com/danilomacb/4noobs-model/a4bdddef7d88c4c882ca38347a02259f7113276b/4noobsAssets/image.svg)
 
+<h3 align="center">
+    <a href="https://opensource.org/licenses/GPL-3.0">
+        <img alt="GitHub" src="https://img.shields.io/github/license/SaLandini/wsl4noobs">
+    </a>
+</h3>
+
 <p align="center">
     <a href="#conteúdos"><strong>Explore a documentação »</strong></a>
+    <br>
+    <a href="https://github.com/SaLandini/wsl4noobs/issues">Bug Report</a>
+    <br>
+    <a href="https://github.com/SaLandini/wsl4noobs/pulls">Report Feature</a>
 </p>
 
 # Roadmap
