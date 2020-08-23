@@ -1,5 +1,7 @@
 # Ubuntu
-
+<p align="center">
+    <img src="../../assets/ubuntu_wslfetch.png" width=50%>
+</p>
 Primeiro vamos rodar o seguinte codigo:
 `sudo apt update && sudo apt -y update` para termos tudo atualizado no linux
 
@@ -48,8 +50,8 @@ startxfce4
 
 ficando assim
 
-<p align="center" width=50%>
-    <img src="../../assets/nano.png">
+<p align="center">
+    <img src="../../assets/nano.png"  width=85%>
 </p>
 
 Agora a gente roda o codgio:
@@ -59,3 +61,7 @@ Agora a gente roda o codgio:
 Que vai abrir o servidor pra você poder acessar remotamente.
 
 Feito isso, você vai procurar "acesso remoto" na barra de pesquisa do windows, nele, você passa `localhost:3390` e com isso acessar. Ao acessar, vai aparecer um tela que vai pedir pra você colocar o usario e senha do seu Ubuntu e pronto, agora temos um interface grafica pro Ubuntu no WSL!
+
+<p align="center">
+    <img src="../../assets/ubun_desk_xrdp.png" width=85%>
+</p>
