@@ -23,8 +23,9 @@
 - [Intalação da distro linux](./contents/Intro/wsl_first.md#instalando-a-distro-linux)
 
 ### Interface Grafica
-- [Ubuntu]()
-- [Kali]()
+- [Explicações básicas](./contents/Interface_grafica/resume.md)
+- [Ubuntu](./contents/Interface_grafica/ubuntu_wsl.md)
+- [Kali](./contents/Interface_grafica/kali_wsl.md)
 
 # Quero contribuir
 Para contribuir com esse projeto maravilhoso, você:
