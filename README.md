@@ -16,14 +16,14 @@
 
 # Roadmap
 
-### Intro
+### Introdução
 - [Sobre](./contents/Intro/wsl_first.md#Sobre)
-- [Preparação do ambiente](./contents/Intro/wsl_first.md#prepara%C3%A7%C3%A3o-do-ambiente)
-- [Intalação do WSL](./contents/Intro/wsl_first.md#instalando-o-wsl)
-- [Intalação da distro linux](./contents/Intro/wsl_first.md#instalando-a-distro-linux)
+- [Preparação do Ambiente](./contents/Intro/wsl_first.md#prepara%C3%A7%C3%A3o-do-ambiente)
+- [Instalação do WSL](./contents/Intro/wsl_first.md)
+- [Instalação da Distribuição Linux](./contents/Intro/wsl_first.md#instalando-a-distro-linux)
 
 ### Interface Grafica
-- [Explicações básicas](./contents/Interface_grafica/resume.md)
+- [Explicações Básicas](./contents/Interface_grafica/overview.md)
 - [Ubuntu](./contents/Interface_grafica/ubuntu_wsl.md)
 - [Kali](./contents/Interface_grafica/kali_wsl.md)
 
