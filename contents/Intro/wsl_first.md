@@ -5,19 +5,19 @@
 
 # Sobre
 
-O WSL é um recurso para windows que permite executar inários e scripts em Linux diretamente no Windows, basicamete, seria rodar o linux dentro do windows, só que sem a interface gráfica.
+O WSL é um recurso para windows que permite executar binários e scripts em Linux diretamente no Windows, basicamente, seria rodar o linux dentro do windows, só que sem a interface gráfica.
 
-Ele é uma boa alternativa pra quem não quer fazer dual boot com o linux ou que não quer ficar criando um ambiente separado com uma virtual machine, ou também pra poder algo que não conseguiu instalar no windows por exempro.
+Ele é uma boa alternativa pra quem não quer fazer dual boot com o linux ou que não quer ficar criando um ambiente separado com uma virtual machine, ou também pra poder rodar algo que não conseguiu instalar no windows por exemplo.
 
 Atualmete ele está na sua segunda versão, que está sendo até que bem recebido em comparação à primeira versão.
 
 # Preparação do ambiente
 
-Para poder usar o WSL, você precisa abilitar a virtulização no seu pc, seja com o AMD-V ou com o Intel VT-x, que precisa ser feito pela bios.
+Para poder usar o WSL, você precisa habilitar a virtualização no seu pc, seja com o AMD-V ou com o Intel VT-x, que precisa ser feito pela bios.
 
 ### Intel VT-x
   
-Para entrar na bios, vai depender de cada computador/placa mãe, mas após entrar na bios, você vai em `ADVANCED`, nessa aba vai ter a opção `Inter Virtualization Technology` é só colocar como `Enable` após isso, salvar e sair.
+Para entrar na bios, vai depender de cada computador/placa mãe, mas após entrar na bios, você vai em `ADVANCED`, nessa aba vai ter a opção `Inter Virtualization Technology` é só colocar como `Enabled` após isso, salvar e sair.
 
 Exemplo:
 
@@ -25,7 +25,7 @@ Exemplo:
 
 ### AMD-V
 
-Para entrar na bios, vai depender de cada computador/placa mãe, mas após entrar na bios, você vai em `ADVANCED`, estando em `ADVANCED`, você vai na opção `CPU Configuration`, estando nela você vai ter a opção `SVM Mode` aí é só colocar como `Enable` após isso, salvar e sair.
+Para entrar na bios, vai depender de cada computador/placa mãe, mas após entrar na bios, você vai em `ADVANCED`, estando em `ADVANCED`, você vai na opção `CPU Configuration`, estando nela você vai ter a opção `SVM Mode` aí é só colocar como `Enabled` após isso, salvar e sair.
 
 Exemplo:
 
@@ -60,7 +60,7 @@ Assim, quando uma nova distribuição for instalada, será utilizada a versão 2
 
 # Instalando a Distribuição Linux
 
-Para a gente instalar um distribuição, a abra a Microsoft Store e pesquise por "linux", ou acesse o [link](https://aka.ms/wslstore) para exibir as versões disponiveis.
+Para a gente instalar uma distribuição, abra a Microsoft Store e pesquise por "linux", ou acesse o [link](https://aka.ms/wslstore) para exibir as versões disponiveis.
 
 <img src="../../assets/win_stores.png" width=75%>
 
