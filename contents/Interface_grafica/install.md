@@ -20,7 +20,7 @@ Se você não instalou o wsl ainda, você pode fazer o seguinte:
 2. Executar o comando ```wsl --install -d DistroQueForUsar*``` e reinicie o computador quando for pedido
 3. Após a reinicialização, a instalação continuará e será pedido colocar um usuário e uma senha pro Linux
 
-> [* caso necessário leia essa parte](../Intro/wsl_first)
+> [* caso necessário leia essa parte](https://github.com/SaLandini/wsl4noobs/blob/master/contents/Intro/wsl_first.md#instala%C3%A7%C3%A3o-simplificada-windowns-insider)
 
 ### WSL existente
 
