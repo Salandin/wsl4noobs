@@ -6,6 +6,8 @@
     </a>
 </h3>
 
+
+
 <p align="center">
     <a href="#conteúdos"><strong>Explore a documentação »</strong></a>
     <br>
@@ -24,6 +26,7 @@
 
 ### Interface Grafica
 - [Explicações Básicas](./contents/Interface_grafica/overview.md)
+- [Instalação](./contents/Interface_grafica/install.md)
 - [Ubuntu](./contents/Interface_grafica/ubuntu_wsl.md)
 - [Kali](./contents/Interface_grafica/kali_wsl.md)
 
@@ -39,4 +42,5 @@ Para contribuir com esse projeto maravilhoso, você:
 E Pronto, a contribuição estará feita!
 
 # Autores
-- __Rafael Salandin Moraes (SaLandini)__ - Someone & Developer [Twitter](https://twitter.com/Rafaelsm_f95)
+- __Rafael Salandin Moraes (SaLandini)__ - Quantum Alchemist & Bad Musician 
+

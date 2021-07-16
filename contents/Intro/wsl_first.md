@@ -5,7 +5,7 @@
 
 # Sobre
 
-O WSL é um recurso para windows que permite executar binários e scripts em Linux diretamente no Windows, basicamente, seria rodar o linux dentro do windows, só que sem a interface gráfica.
+O WSL é um recurso para windows que permite executar binários e scripts em Linux diretamente no Windows, basicamente, seria rodar o linux dentro do windows.
 
 Ele é uma boa alternativa pra quem não quer fazer dual boot com o linux ou que não quer ficar criando um ambiente separado com uma virtual machine, ou também pra poder rodar algo que não conseguiu instalar no windows por exemplo.
 
@@ -16,7 +16,7 @@ Atualmete ele está na sua segunda versão, que está sendo até que bem recebid
 Para poder usar o WSL, você precisa habilitar a virtualização no seu pc, seja com o AMD-V ou com o Intel VT-x, que precisa ser feito pela bios.
 
 ### Intel VT-x
-  
+
 Para entrar na bios, vai depender de cada computador/placa mãe, mas após entrar na bios, você vai em `ADVANCED`, nessa aba vai ter a opção `Inter Virtualization Technology` é só colocar como `Enabled` após isso, salvar e sair.
 
 Exemplo:
@@ -54,9 +54,20 @@ Após a reinicialização ter sido concluída, execute a linha de código abaixo
 
 `wsl --set-default-version 2`
 
-Se aparecer a mensagem `WSL 2 requires an update to its kernel component. For information please visit https://aka.ms/wsl2kernel` depois de ter executado o comando anterior, é recomendado que acesse esse [link](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#set-wsl-2-as-your-default-version) e siga os passos da Microsoft para resolver o problema.
+Se aparecer a mensagem `WSL 2 requires an update to its kernel component.` ou se o sistema estiver em português `WSL 2 requer uma atualização para seu componente kernel.` depois de ter executado o comando anterior, é recomendado que acesse esse [link](ttps://docs.microsoft.com/pt-br/windows/wsl/install-win10) caso tenha alguma duvida, ou pode ir diretamente para esse [link](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi) para fazer o download do pacote de atualizações que se pede
 
 Assim, quando uma nova distribuição for instalada, será utilizada a versão 2 e não a primeira.
+
+## Instalação simplificada (Windowns Insider)
+
+Se você fazer parte do programa Windows Insider, pode ser que é disponivel usar o comando `wsl --install` ou `wsl.exe --install`. Com ele é executado as seguintes ações:
+
+- Habilita os componentes opcionais WSL e Plataforma de Máquina Virtual
+- Baixa e instala o kernel do Linux mais recente
+- Define WSL 2 como o padrão
+- Faz download e instala uma distribuição do Linux (talvez seja necessário fazer a reinicialização)
+
+Um aviso importante: por padrão, o Ubuntu é a distribuição instalada. Mas caso queira usar outro, você pode alterar usando `wsl --install -d NomeDaDistribuição`, e você pode rodar o comando `wsl --list --online` para ver a lista de distribuições disponiveis.
 
 # Instalando a Distribuição Linux
 
