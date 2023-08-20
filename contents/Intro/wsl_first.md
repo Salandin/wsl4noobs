@@ -1,4 +1,5 @@
 # WSL - Windows Subsystem for Linux
+
 <p align="center">
     <img src="../../assets/wsl2.jpeg" width=75%>
 </p>
@@ -31,6 +32,16 @@ Exemplo:
 
 <img src="../../assets/amd_exemple.jpg" width=75%>
 
+### Ativar recurso de virtualização no Windows
+
+Alguns computadores vem com a opção de virtualização desativada no Windows, com isso, é importante verificar se esta funcionalidade está ativada nas configurações do sistema operacional para que o WLS funcione corretamente.
+
+Para isso, no menu iniciar do Windows, pesquise por **Ativar ou desativar recursos do Windows,** e verifique se os seguintes recursos estão ativos:
+
+<img src="../../assets/win_recursos_ativos.png" width=60%>
+
+Caso um deles não esteja marcado, ative-o e clique em Ok. Em seguida, reinicie o Windows para que as alterações sejam aplicadas.
+
 # Instalando o WSL
 
 Primeiro, iremos abrir o powershell como administrador e executar o seguinte codigo:
@@ -38,7 +49,7 @@ Primeiro, iremos abrir o powershell como administrador e executar o seguinte cod
 `dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart`
 
 Após isso, você irá reiniciar o computador e o WSL 1 estará instalado.  
-Atualmente, já existe uma versão atualizada do WSL, o WSL 2. Ela possui muitas melhorias e seu uso é recomendado. [Clique aqui](https://docs.microsoft.com/pt-br/windows/wsl/compare-versions) e veja a comparação entre as versões. 
+Atualmente, já existe uma versão atualizada do WSL, o WSL 2. Ela possui muitas melhorias e seu uso é recomendado. [Clique aqui](https://docs.microsoft.com/pt-br/windows/wsl/compare-versions) e veja a comparação entre as versões.
 Entretanto, é necessário que o seu Windows 10 esteja na versão **2004**, **Build 19041** ou superiores.  
 Para poder utilizar a **interface gráfica** das distribuições do Linux no Windows, o **WSL 2** é necessário.
 
@@ -46,7 +57,7 @@ Para poder utilizar a **interface gráfica** das distribuições do Linux no Win
 
 Tendo reiniciado o computador, iremos ativar o recurso "Plataforma de Máquina Virtual".
 
-Para isso, abra o Powershell como Administrador e execute a seguinte linha de código e reinicie o computador em seguida: 
+Para isso, abra o Powershell como Administrador e execute a seguinte linha de código e reinicie o computador em seguida:
 
 `dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
 
