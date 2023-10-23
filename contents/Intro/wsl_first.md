@@ -8,7 +8,7 @@
 
 O WSL é um recurso para windows que permite executar binários e scripts em Linux diretamente no Windows, basicamente, seria rodar o linux dentro do windows.
 
-Ele é uma boa alternativa pra quem não quer fazer dual boot com o linux ou que não quer ficar criando um ambiente separado com uma virtual machine, ou também pra poder rodar algo que não conseguiu instalar no windows por exemplo.
+Ele é uma boa alternativa pra quem não quer fazer dual boot com o linux ou que não quer ficar criando um ambiente separado com uma máquina virtual (_virtual machine_), ou também pra poder rodar algo que não conseguiu instalar no windows por exemplo.
 
 Atualmete ele está na sua segunda versão, que está sendo até que bem recebido em comparação à primeira versão.
 
@@ -41,6 +41,10 @@ Para isso, no menu iniciar do Windows, pesquise por **Ativar ou desativar recurs
 <img src="../../assets/win_recursos_ativos.png" width=60%>
 
 Caso um deles não esteja marcado, ative-o e clique em Ok. Em seguida, reinicie o Windows para que as alterações sejam aplicadas.
+
+> ⚠️ IMPORTANTE ⚠️
+Mesmo que a sua versão do Windows não possua nativamente o Hyper-V (veja quais são os requisitos de sistema neste [link oficial da Microsoft](https://learn.microsoft.com/pt-br/virtualization/hyper-v-on-windows/reference/hyper-v-requirements). É possível habilitá-lo através de um script, mesmo nas versões do Windows 10/11 Home. Para tanto, basta seguir este tutorial: [Como usar o Hyper-V no Windows 10 Home](https://supertutoriais.com.br/pc/como-usar-hyper-v-windows-10-home/). Com este processo, tenha em mente que alguns recursos utilizados profissionalmente não são habitados. Porém, o nosso objetivo principal é atingido, isto é, permitir a virtualização de forma nativa através do Hyper-V.
+
 
 # Instalando o WSL
 
